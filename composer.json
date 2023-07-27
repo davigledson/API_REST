@@ -1,0 +1,20 @@
+{
+    "name": "davig/api_rest",
+    "description": "aprendendo sobre api rest",
+    "autoload": {
+        "psr-4": {
+            "App\\":"App"
+        },
+        "files":[
+            "config.app"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Davi Gledson",
+            "email": "davigledson@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
