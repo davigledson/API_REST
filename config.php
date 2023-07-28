@@ -2,6 +2,6 @@
  
  const DBDRIVE = 'mysql';
  const DBHOST = 'localhost'; 
- const DBNAME = 'serie_login';
+ const DBNAME = 'api_rest';
  const DBBUSER = 'root';
  const DBPASS = '';

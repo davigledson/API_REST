@@ -6,7 +6,7 @@
             "App\\":"App"
         },
         "files":[
-            "config.app"
+            "config.php"
         ]
     },
     "authors": [
@@ -16,5 +16,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "digitalnature/php-ref": "dev-master"
+    }
 }
