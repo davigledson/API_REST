@@ -11,8 +11,9 @@ class UserService{
       return User::selectAll();
     }
    } 
-   public function post(){
-    
+   public function post(){    
+    $data = $_POST;
+    return User::insert($data);
    } 
    public function update(){
     
