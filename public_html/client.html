@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de requisição via javascript</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script type="text/javascript">
+var url= 'http://localhost/API_REST/public_html/api/user'
+
+fetch(url)
+.then(responde => responde.json())
+.then(data => {
+    console.log(data);
+})
+.catch(error => {
+
+ console.log('ERROR '+ error.message);
+})
+</script>
